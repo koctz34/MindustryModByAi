@@ -1,0 +1,25 @@
+type: PowerTurret
+name: entangler-turret
+requirements:[
+  silicon/100
+  lead/80
+  plastanium/50
+  surge-alloy/30
+  ]
+size: 3
+reload: 60
+range: 200
+targetAir: true
+targetGround: true
+inaccuracy: 2
+recoil: 1.5
+shootSound: laser
+cooldownTime: 30
+shootType: {
+type: LaserBulletType
+length: 200
+width: 5
+}
+consumes: {
+power: 3.5
+}

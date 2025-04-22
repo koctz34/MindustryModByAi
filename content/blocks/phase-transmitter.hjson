@@ -1,0 +1,12 @@
+type: ItemBridge
+name: phase-transmitter
+requirements:[
+  titanium/60
+  silicon/80
+  phase-fabric/40
+  ]
+range: 20
+bufferCapacity: 40
+size: 2
+hasPower: true
+consumePower: 2.5

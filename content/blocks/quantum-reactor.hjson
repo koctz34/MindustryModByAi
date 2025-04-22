@@ -1,0 +1,21 @@
+type: ConsumeGenerator
+name: quantum-reactor
+requirements:[
+  lead/150
+  silicon/100
+  thorium/80
+  surge-alloy/60
+  ]
+powerProduction: 1800
+size: 3
+consumes:{
+    liquids: [
+	  cryofluid/0.3
+    ]
+	items: [
+      thorium/2
+    ]
+}
+consumePower: 0
+hasLiquids: true
+hasItems: true
